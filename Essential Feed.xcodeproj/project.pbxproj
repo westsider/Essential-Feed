@@ -75,9 +75,8 @@
 		8443AA1626C811680017B283 /* Essential Feed */ = {
 			isa = PBXGroup;
 			children = (
-				8443AA3026C813920017B283 /* Feed Loader.swift */,
 				8443AA1726C811680017B283 /* Essential_Feed.h */,
-				8443AA2E26C811960017B283 /* Feed Item.swift */,
+				8443AA3226C814790017B283 /* Feed Feature */,
 				8443AA1826C811680017B283 /* Info.plist */,
 			);
 			path = "Essential Feed";
@@ -90,6 +89,15 @@
 				8443AA2426C811690017B283 /* Info.plist */,
 			);
 			path = "Essential FeedTests";
+			sourceTree = "<group>";
+		};
+		8443AA3226C814790017B283 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				8443AA3026C813920017B283 /* Feed Loader.swift */,
+				8443AA2E26C811960017B283 /* Feed Item.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
