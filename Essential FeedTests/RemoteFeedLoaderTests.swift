@@ -55,7 +55,10 @@ class RemoteFeedLoaderTests: XCTestCase {
         var requestedURLs = [URL]()
         var completions = [(Error) -> Void]()
         
+        private var messages = [(url: URL, completion: (Error) -> Void)]()
+        
         func get(from url: URL, completion: @escaping (Error) -> Void) {
+            messages.append((url, completion)
             completions.append(completion)
             requestedURLs.append(url)
         }
